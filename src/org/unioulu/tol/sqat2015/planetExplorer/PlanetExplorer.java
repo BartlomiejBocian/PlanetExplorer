@@ -37,22 +37,24 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		if (command.equals("")) {
+		if(command.equals("")){
 			return explorerLandingOperation();
 		}
-		switch (command) {
-		case "l":
-			return explorerTurnLeft();
-		case "r":
-			return explorerTurnRight();
-		case "f":
-			return explorerForward();
-		case "b":
-			return explorerBackward();
-		default:
-			break;
+		for ( int i=0 ; i < command.length(); i++)
+		{
+			switch (command.charAt(i)) {
+			case 'l':
+				return explorerTurnLeft();
+			case 'r':
+				return explorerTurnRight();
+			case 'f':
+				return explorerForward();
+			case 'b':
+				return explorerBackward();
+			default:
+				break;
+			}
 		}
-
 		return null;
 	}
 

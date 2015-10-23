@@ -310,3 +310,6 @@ RefactoringAction 1445595355416 PlanetExplorer.java RENAME explorerLanding=>Stri
 RefactoringAction 1445595357936 PlanetExplorer.java RENAME explorerLandingO=>String explorerLandingOperation FIELD
 RefactoringAction 1445595360456 PlanetExplorer.java RENAME explorerLandingOperation=>String explorerLandingOperation() METHOD
 EditAction 1445595468989 PlanetExplorer.java 4899 14 33 0
+UnitTestCaseAction 1445595470167 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595470168 TestPlanetExplorer FAIL
+EditAction 1445595929265 PlanetExplorer.java 4973 14 33 0
