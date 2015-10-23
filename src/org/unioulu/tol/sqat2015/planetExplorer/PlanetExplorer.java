@@ -45,9 +45,9 @@ public class PlanetExplorer {
 		case "r":
 			return explorerTurnRight();
 		case "f":
-			return "(0,1,N)";
+			return explorerForward();
 		case "b":
-			return "(0,0,N)";
+			return explorerBackward();
 		default:
 			break;
 		}
@@ -103,6 +103,26 @@ public class PlanetExplorer {
 			break;
 		default:
 			break;
+		}
+		String explorerNewDirection = new String("("+ explorerPositionX +","+ explorerPositionY +","+ explorerDirecton + ")");
+		return explorerNewDirection;
+	}
+	
+	private String explorerForward(){
+		if (explorerDirecton.equals("N")||explorerDirecton.equals("S")){
+			explorerPositionY++;
+		} else if (explorerDirecton.equals("E")||explorerDirecton.equals("W")) {
+			explorerPositionX++;
+		}
+		String explorerNewDirection = new String("("+ explorerPositionX +","+ explorerPositionY +","+ explorerDirecton + ")");
+		return explorerNewDirection;
+	}
+	
+	private String explorerBackward(){
+		if (explorerDirecton.equals("N")||explorerDirecton.equals("S")){
+			explorerPositionY--;
+		} else if (explorerDirecton.equals("E")||explorerDirecton.equals("W")) {
+			explorerPositionX--;
 		}
 		String explorerNewDirection = new String("("+ explorerPositionX +","+ explorerPositionY +","+ explorerDirecton + ")");
 		return explorerNewDirection;

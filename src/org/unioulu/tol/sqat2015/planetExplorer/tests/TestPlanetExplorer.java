@@ -78,7 +78,7 @@ public class TestPlanetExplorer {
 	public void testExplorerPositionParsing00N(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
 		
-		planetExplorer.parsingExplorerPosition("(0,0,N)"); 
+		planetExplorer.positioningExplorer("(0,0,N)"); 
 		
 		int explorerX = planetExplorer.getExplorerPositionX();
 		int explorerY = planetExplorer.getExplorerPositionY();
