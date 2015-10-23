@@ -53,3 +53,13 @@ RefactoringAction 1445590280483 TestPlanetExplorer.java RENAME test=>void testEx
 RefactoringAction 1445590282997 TestPlanetExplorer.java RENAME testExplorer=>void testExplorerLanding FIELD
 EditAction 1445590480736 PlanetExplorer.java 1697 4 7 0
 EditAction 1445590480886 TestPlanetExplorer.java 971 3 9 3
+UnitTestCaseAction 1445590481952 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445590481953 TestPlanetExplorer OK
+RefactoringAction 1445590536074 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445590539092 TestPlanetExplorer.java RENAME test=>void testExplore FIELD
+RefactoringAction 1445590540108 TestPlanetExplorer.java RENAME testExplore=>void testExplorer FIELD
+RefactoringAction 1445590553624 TestPlanetExplorer.java RENAME testExplorer=>void testExplorerTurn FIELD
+RefactoringAction 1445590578140 TestPlanetExplorer.java RENAME testExplorerTurn=>void testExplorerTurnLeft FIELD
+RefactoringAction 1445590581157 TestPlanetExplorer.java RENAME testExplorerTurnLeft=>void testExplorerTurnLeftAfter FIELD
+RefactoringAction 1445590584173 TestPlanetExplorer.java RENAME testExplorerTurnLeftAfter=>void testExplorerTurnLeftAfterLanding FIELD
+EditAction 1445590676467 PlanetExplorer.java 1732 4 7 0

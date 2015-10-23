@@ -36,6 +36,8 @@ public class PlanetExplorer {
 		switch (command) {
 		case "":
 			return "(0,0,N)";
+		case "l":
+			return "(0,0,W)";
 		default:
 			break;
 		}
