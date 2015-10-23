@@ -40,6 +40,8 @@ public class PlanetExplorer {
 			return "(0,0,W)";
 		case "r":
 			return "(0,0,E)";
+		case "f":
+			return "(0,1,N)";
 		default:
 			break;
 		}

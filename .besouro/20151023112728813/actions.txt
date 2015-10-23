@@ -90,3 +90,6 @@ RefactoringAction 1445590873251 TestPlanetExplorer.java RENAME testExplorerMovin
 RefactoringAction 1445590927850 TestPlanetExplorer.java RENAME testExplorerMovingForwardFromPosition76N()=>void testExplorerMovingForwardFromLan() METHOD
 RefactoringAction 1445590929368 TestPlanetExplorer.java RENAME testExplorerMovingForwardFromLan()=>void testExplorerMovingForwardFromLanding() METHOD
 EditAction 1445590986251 TestPlanetExplorer.java 1716 6 18 6
+UnitTestCaseAction 1445590987479 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445590987480 TestPlanetExplorer FAIL
+EditAction 1445591031888 PlanetExplorer.java 1802 4 7 0
