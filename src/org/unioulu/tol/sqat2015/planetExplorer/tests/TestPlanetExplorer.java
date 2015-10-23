@@ -114,5 +114,14 @@ public class TestPlanetExplorer {
 		assertEquals("(4,8,E)", backwardCommand);
 	}
 	
-	
+	@Test
+	public void testExplorerCombinedMovingAndTurningFromLanding(){
+		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
+		
+		planetExplorer.executeCommand("");
+		
+		String combinedMoving = planetExplorer.executeCommand("ffrff"); 
+		
+		assertEquals("(2,2,E)", combinedMoving);
+	}
 }
