@@ -132,6 +132,8 @@ public class PlanetExplorer {
 		if (explorerDirecton.equals("N")||explorerDirecton.equals("S")){
 			if(explorerPositionY < planetY && explorerPositionY > 0)
 				explorerPositionY--;
+			if(explorerPositionY == 0)
+				explorerPositionY = planetY -1;
 		} else if (explorerDirecton.equals("E")||explorerDirecton.equals("W")) {
 			if(explorerPositionX < planetX && explorerPositionX > 0)
 				explorerPositionX--;
