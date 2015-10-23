@@ -44,3 +44,5 @@ UnitTestCaseAction 1445590200639 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445590200639 TestPlanetExplorer FAIL
 RefactoringAction 1445590237853 PlanetExplorer.java REMOVE gridLenght() METHOD
 EditAction 1445590251640 PlanetExplorer.java 1613 4 6 0
+CompilationAction 1445590251771 TestPlanetExplorer.java
+EditAction 1445590251826 TestPlanetExplorer.java 735 2 6 2

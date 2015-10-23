@@ -22,6 +22,6 @@ public class TestPlanetExplorer {
 		
 		int planetSize = planetExplorer.getPlanetWidth() * planetExplorer.getPlanetHeight();
 		
-		assertEquals(200, planetExplorer.gridLenght());
+		assertEquals(200, planetSize);
 	}
 }
