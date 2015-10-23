@@ -124,4 +124,14 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(2,2,E)", combinedMoving);
 	}
+	@Test
+	public void testExplorerWrapingFromLandingPosition(){
+		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
+		
+		planetExplorer.executeCommand("");
+		
+		String wrapping = planetExplorer.executeCommand("b"); 
+		
+		assertEquals("(0,99,N)", wrapping);
+	}
 }

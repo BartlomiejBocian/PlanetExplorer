@@ -9,7 +9,8 @@
 1445593153041 test-first 1 1977 true
 1445593976055 refactoring 3 823 true
 1445594202209 production 3 226 false
-1445594649750 refactoring 3 447 false
-1445594900327 refactoring 2B 250 false
-1445594940967 regression 1 40 false
-1445595142472 test-addition 1 201 false
+1445594649750 refactoring 3 447 true
+1445594900327 refactoring 2B 250 true
+1445594940967 regression 1 40 true
+1445595142472 test-addition 1 201 true
+1445596184040 test-first 3 1041 true
