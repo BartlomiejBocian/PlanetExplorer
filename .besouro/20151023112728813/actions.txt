@@ -218,3 +218,18 @@ EditAction 1445593921185 PlanetExplorer.java 3359 9 17 0
 UnitTestCaseAction 1445593922881 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445593922882 TestPlanetExplorer FAIL
 EditAction 1445593974930 TestPlanetExplorer.java 2572 8 31 10
+UnitTestCaseAction 1445593976054 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445593976055 TestPlanetExplorer OK
+RefactoringAction 1445594025454 PlanetExplorer.java ADD void po FIELD
+RefactoringAction 1445594027972 PlanetExplorer.java RENAME po=>void posit FIELD
+RefactoringAction 1445594028990 PlanetExplorer.java RENAME posit=>void positio FIELD
+RefactoringAction 1445594031008 PlanetExplorer.java RENAME positio=>void positioning FIELD
+RefactoringAction 1445594036027 PlanetExplorer.java RENAME positioning=>void positioningExplorer FIELD
+RefactoringAction 1445594038545 PlanetExplorer.java RENAME positioningExplorer=>void positioningExplorer() METHOD
+RefactoringAction 1445594044563 PlanetExplorer.java RENAME positioningExplorer()=>void positioningExplorer(String) METHOD
+RefactoringAction 1445594096791 PlanetExplorer.java ADD String explorerTurnLeft FIELD
+RefactoringAction 1445594097808 PlanetExplorer.java RENAME explorerTurnLeft=>String explorerTurnLeft() METHOD
+RefactoringAction 1445594113349 PlanetExplorer.java ADD String explorerTu FIELD
+RefactoringAction 1445594117369 PlanetExplorer.java RENAME explorerTu=>String explorerTurnRight() METHOD
+RefactoringAction 1445594163096 PlanetExplorer.java REMOVE explorerTurning(String) METHOD
+EditAction 1445594185772 PlanetExplorer.java 3532 11 21 0

@@ -41,9 +41,9 @@ public class PlanetExplorer {
 		case "":
 			return "(0,0,N)";
 		case "l":
-			return explorerTurning("l");
+			return explorerTurnLeft();
 		case "r":
-			return explorerTurning("r");
+			return explorerTurnRight();
 		case "f":
 			return "(0,1,N)";
 		case "b":
@@ -55,48 +55,54 @@ public class PlanetExplorer {
 		return null;
 	}
 	
-	public void parsingExplorerPosition(String position){
+	public void positioningExplorer(String position){
+		parsingExplorerPosition(position);
+	}
+	
+	private void parsingExplorerPosition(String position){
 		String[] separated = position.split("[\\(,\\)]");
 		this.explorerPositionX = Integer.parseInt(separated[1]);
 		this.explorerPositionY = Integer.parseInt(separated[2]);
 		this.explorerDirecton = separated[3];
 	}
 	
-	private String explorerTurning(String direction){
-		if(direction.equals("r")){
-			switch (explorerDirecton) {
-			case "N":
-				this.explorerDirecton = "E";
-				break;
-			case "S":
-				this.explorerDirecton = "W";
-				break;
-			case "W":
-				this.explorerDirecton = "N";
-				break;
-			case "E":
-				this.explorerDirecton = "S";
-				break;
-			default:
-				break;
-			}
-		} else if (direction.equals("l")) {
-			switch (explorerDirecton) {
-			case "N":
-				this.explorerDirecton = "W";
-				break;
-			case "S":
-				this.explorerDirecton = "E";
-				break;
-			case "W":
-				this.explorerDirecton = "S";
-				break;
-			case "E":
-				this.explorerDirecton = "N";
-				break;
-			default:
-				break;
-			}
+	private String explorerTurnLeft(){
+		switch (explorerDirecton) {
+		case "N":
+			this.explorerDirecton = "W";
+			break;
+		case "S":
+			this.explorerDirecton = "E";
+			break;
+		case "W":
+			this.explorerDirecton = "S";
+			break;
+		case "E":
+			this.explorerDirecton = "N";
+			break;
+		default:
+			break;
+		}
+		String explorerNewDirection = new String("("+ explorerPositionX +","+ explorerPositionY +","+ explorerDirecton + ")");
+		return explorerNewDirection;
+	}
+	
+	private String explorerTurnRight(){
+		switch (explorerDirecton) {
+		case "N":
+			this.explorerDirecton = "E";
+			break;
+		case "S":
+			this.explorerDirecton = "W";
+			break;
+		case "W":
+			this.explorerDirecton = "N";
+			break;
+		case "E":
+			this.explorerDirecton = "S";
+			break;
+		default:
+			break;
 		}
 		String explorerNewDirection = new String("("+ explorerPositionX +","+ explorerPositionY +","+ explorerDirecton + ")");
 		return explorerNewDirection;
