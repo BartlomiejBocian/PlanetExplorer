@@ -24,4 +24,13 @@ public class TestPlanetExplorer {
 		
 		assertEquals(200, planetSize);
 	}
+	
+	@Test
+	public void testExplorerLanding(){
+		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
+		
+		String landingCommand = planetExplorer.executeCommand(""); 
+		
+		assertEquals("(0,0,N)", landingCommand);
+	}
 }

@@ -52,3 +52,4 @@ RefactoringAction 1445590277469 TestPlanetExplorer.java ADD void test FIELD
 RefactoringAction 1445590280483 TestPlanetExplorer.java RENAME test=>void testExplorer FIELD
 RefactoringAction 1445590282997 TestPlanetExplorer.java RENAME testExplorer=>void testExplorerLanding FIELD
 EditAction 1445590480736 PlanetExplorer.java 1697 4 7 0
+EditAction 1445590480886 TestPlanetExplorer.java 971 3 9 3
