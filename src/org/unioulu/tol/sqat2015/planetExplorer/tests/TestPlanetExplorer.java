@@ -38,6 +38,8 @@ public class TestPlanetExplorer {
 	public void testExplorerTurnLeftAfterLanding(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
 		
+		planetExplorer.parsingExplorerPosition("(0,0,N)");
+		
 		String leftCommand = planetExplorer.executeCommand("l"); 
 		
 		assertEquals("(0,0,W)", leftCommand);
@@ -46,6 +48,8 @@ public class TestPlanetExplorer {
 	@Test
 	public void testExplorerTurnRightAfterLanding(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
+		
+		planetExplorer.parsingExplorerPosition("(0,0,N)");
 		
 		String rightCommand = planetExplorer.executeCommand("r"); 
 		
