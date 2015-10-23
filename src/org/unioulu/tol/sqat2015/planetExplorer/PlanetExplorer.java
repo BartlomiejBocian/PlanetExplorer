@@ -58,9 +58,9 @@ public class PlanetExplorer {
 	public void parsingExplorerPosition(String position){
 		String[] separated = position.split("[(,)]");
 		System.out.println(separated.length);
-		this.explorerPositionX = Integer.parseInt(separated[0]);
-		this.explorerPositionY = Integer.parseInt(separated[1]);
-		this.explorerDirecton = separated[2];
+		this.explorerPositionX = Integer.parseInt(separated[1]);
+		this.explorerPositionY = Integer.parseInt(separated[3]);
+		this.explorerDirecton = separated[5];
 	}
 	
 	public int getPlanetWidth() {
