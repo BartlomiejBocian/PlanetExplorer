@@ -60,4 +60,19 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0,1,N)", forwardCommand);
 	}
+	
+	@Test
+	public void testExplorerMovingBackFromPosition01N(){
+		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
+		
+		String backwardCommand = planetExplorer.executeCommand("f"); 
+		
+		assertEquals("(0,0,N)", backwardCommand);
+	}
+	
+	
+	
+	
+	
+	
 }
