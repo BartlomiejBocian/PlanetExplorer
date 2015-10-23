@@ -27,4 +27,14 @@ public class PlanetExplorer {
 		
 		return null;
 	}
+
+	public int getPlanetWidth() {
+		// TODO Auto-generated method stub
+		return 100;
+	}
+
+	public int getPlanetHeight() {
+		// TODO Auto-generated method stub
+		return 100;
+	}
 }
