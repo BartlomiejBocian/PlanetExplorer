@@ -38,6 +38,8 @@ public class PlanetExplorer {
 			return "(0,0,N)";
 		case "l":
 			return "(0,0,W)";
+		case "r":
+			return "(0,0,E)";
 		default:
 			break;
 		}
