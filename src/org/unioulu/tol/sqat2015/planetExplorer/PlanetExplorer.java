@@ -55,10 +55,11 @@ public class PlanetExplorer {
 		return null;
 	}
 	
-	public String[] parsingExplorerPosition(String position){
+	public void parsingExplorerPosition(String position){
 		String[] separated = position.split("(" + "," + ")");
-		System.out.println(separated[1]);
-		return separated;
+		this.explorerPositionX = Integer.parseInt(separated[1]);
+		this.explorerPositionY = Integer.parseInt(separated[3]);
+		this.explorerDirecton = separated[6];
 	}
 	
 	public int getPlanetWidth() {
@@ -68,4 +69,18 @@ public class PlanetExplorer {
 	public int getPlanetHeight() {
 		return planetY;
 	}
+
+	public int getExplorerPositionX() {
+		return explorerPositionX;
+	}
+
+	public int getExplorerPositionY() {
+		return explorerPositionY;
+	}
+
+	public String getExplorerDirecton() {
+		return explorerDirecton;
+	}
+	
+	
 }

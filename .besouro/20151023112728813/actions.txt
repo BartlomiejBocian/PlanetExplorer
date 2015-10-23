@@ -146,3 +146,13 @@ EditAction 1445592086348 TestPlanetExplorer.java 2275 8 25 8
 UnitTestCaseAction 1445592087460 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445592087461 TestPlanetExplorer FAIL
 EditAction 1445592196488 PlanetExplorer.java 2123 5 10 0
+UnitTestCaseAction 1445592197624 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445592197625 TestPlanetExplorer FAIL
+RefactoringAction 1445592256814 PlanetExplorer.java REMOVE explorerPositionY FIELD
+RefactoringAction 1445592258329 PlanetExplorer.java ADD int explorerPositionY FIELD
+RefactoringAction 1445592260345 PlanetExplorer.java REMOVE explorerPositionX FIELD
+RefactoringAction 1445592261360 PlanetExplorer.java ADD int explorerPositionX FIELD
+RefactoringAction 1445592454931 PlanetExplorer.java ADD int getExplorerPositionX() METHOD
+RefactoringAction 1445592454933 PlanetExplorer.java ADD int getExplorerPositionY() METHOD
+RefactoringAction 1445592454933 PlanetExplorer.java ADD String getExplorerDirecton() METHOD
+EditAction 1445592556357 PlanetExplorer.java 2448 8 14 0
