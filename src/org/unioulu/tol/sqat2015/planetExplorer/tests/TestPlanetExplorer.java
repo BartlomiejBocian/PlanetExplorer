@@ -128,7 +128,7 @@ public class TestPlanetExplorer {
 	public void testExplorerWrapingFromLandingPosition(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
 		
-		planetExplorer.executeCommand("");
+		planetExplorer.positioningExplorer("(0,0,N)");
 		
 		String wrapping = planetExplorer.executeCommand("b"); 
 		
