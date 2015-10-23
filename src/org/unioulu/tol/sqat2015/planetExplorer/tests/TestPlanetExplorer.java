@@ -70,6 +70,15 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,N)", backwardCommand);
 	}
 	
+	@Test
+	public void testExplorerPositionParsing00N(){
+		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
+		
+		String[] parsing = planetExplorer.parsingExplorerPosition("()"); 
+		String[] output = {"0","0","N"};
+
+		assertArrayEquals(output, parsing);
+	}
 	
 	
 	

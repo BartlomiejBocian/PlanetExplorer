@@ -8,6 +8,10 @@ public class PlanetExplorer {
 	private int planetX;
 	private int planetY;
 	
+	private int explorerPositionX;
+	private int explorerPositionY;
+	private String explorerDirecton;
+	
 	private int[][] planet;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -49,6 +53,12 @@ public class PlanetExplorer {
 		}
 		
 		return null;
+	}
+	
+	public String[] parsingExplorerPosition(String position){
+		String[] separated = position.split("(" + "," + ")");
+		System.out.println(separated);
+		return separated;
 	}
 	
 	public int getPlanetWidth() {

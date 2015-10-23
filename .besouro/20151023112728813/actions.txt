@@ -109,3 +109,34 @@ EditAction 1445591156809 PlanetExplorer.java 1837 4 7 0
 UnitTestCaseAction 1445591157973 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445591157974 TestPlanetExplorer FAIL
 EditAction 1445591174486 TestPlanetExplorer.java 1991 7 21 7
+UnitTestCaseAction 1445591175840 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445591175841 TestPlanetExplorer OK
+RefactoringAction 1445591270252 PlanetExplorer.java ADD int explorer FIELD
+RefactoringAction 1445591277267 PlanetExplorer.java RENAME explorer=>int explorerPo FIELD
+RefactoringAction 1445591279781 PlanetExplorer.java RENAME explorerPo=>int explorerPositionX FIELD
+RefactoringAction 1445591286813 PlanetExplorer.java ADD import org.junit.Assert.assertEquals IMPORT
+RefactoringAction 1445591288327 PlanetExplorer.java REMOVE testExplorerMovingForwardFromLanding() METHOD
+RefactoringAction 1445591293842 PlanetExplorer.java ADD int explorerPositionX/2 FIELD
+RefactoringAction 1445591295356 PlanetExplorer.java RENAME explorerPositionX/2=>int explorerPositionY FIELD
+RefactoringAction 1445591342414 PlanetExplorer.java ADD void parsing FIELD
+RefactoringAction 1445591345428 PlanetExplorer.java RENAME parsing=>void parsingExplorer FIELD
+RefactoringAction 1445591347443 PlanetExplorer.java RENAME parsingExplorer=>void parsingExplorerPosition FIELD
+RefactoringAction 1445591350458 PlanetExplorer.java RENAME parsingExplorerPosition=>void parsingExplorerPosition() METHOD
+RefactoringAction 1445591358473 PlanetExplorer.java RENAME parsingExplorerPosition()=>void parsingExplorerPosition(String) METHOD
+RefactoringAction 1445591409030 PlanetExplorer.java ADD int explorerPositionY/2 FIELD
+RefactoringAction 1445591412545 PlanetExplorer.java REMOVE explorerPositionY/2 FIELD
+RefactoringAction 1445591414058 PlanetExplorer.java ADD char explorerPositionY/2 FIELD
+RefactoringAction 1445591421086 PlanetExplorer.java RENAME explorerPositionY/2=>String explorer FIELD
+RefactoringAction 1445591427101 PlanetExplorer.java RENAME explorer=>String explorerDirecton FIELD
+RefactoringAction 1445591625928 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445591631441 TestPlanetExplorer.java RENAME test=>void testExplorerPosition FIELD
+RefactoringAction 1445591634451 TestPlanetExplorer.java RENAME testExplorerPosition=>void testExplorerPositionParsing FIELD
+RefactoringAction 1445591642490 TestPlanetExplorer.java RENAME testExplorerPositionParsing=>void testExplorerPositionParsing00 FIELD
+RefactoringAction 1445591643510 TestPlanetExplorer.java RENAME testExplorerPositionParsing00=>void testExplorerPositionParsing00N FIELD
+RefactoringAction 1445591645530 TestPlanetExplorer.java RENAME testExplorerPositionParsing00N=>void testExplorerPositionParsing00N() METHOD
+RefactoringAction 1445591824342 TestPlanetExplorer.java ADD void assertEquals() METHOD
+RefactoringAction 1445591827383 TestPlanetExplorer.java REMOVE assertEquals() METHOD
+RefactoringAction 1445591840949 TestPlanetExplorer.java ADD void assertEquals() METHOD
+RefactoringAction 1445591842971 TestPlanetExplorer.java REMOVE assertEquals() METHOD
+FileOpenedAction 1445591912429 Sudoku.java 2879 8 13 0
+EditAction 1445591999840 TestPlanetExplorer.java 2270 8 25 8
