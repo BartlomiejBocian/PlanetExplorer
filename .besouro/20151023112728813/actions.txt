@@ -40,3 +40,7 @@ RefactoringAction 1445590149550 PlanetExplorer.java ADD int gridLenght FIELD
 RefactoringAction 1445590150567 PlanetExplorer.java RENAME gridLenght=>int gridLenght() METHOD
 EditAction 1445590199540 PlanetExplorer.java 1675 5 7 0
 EditAction 1445590199731 TestPlanetExplorer.java 752 2 6 2
+UnitTestCaseAction 1445590200639 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445590200639 TestPlanetExplorer FAIL
+RefactoringAction 1445590237853 PlanetExplorer.java REMOVE gridLenght() METHOD
+EditAction 1445590251640 PlanetExplorer.java 1613 4 6 0
