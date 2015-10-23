@@ -156,3 +156,5 @@ RefactoringAction 1445592454931 PlanetExplorer.java ADD int getExplorerPositionX
 RefactoringAction 1445592454933 PlanetExplorer.java ADD int getExplorerPositionY() METHOD
 RefactoringAction 1445592454933 PlanetExplorer.java ADD String getExplorerDirecton() METHOD
 EditAction 1445592556357 PlanetExplorer.java 2448 8 14 0
+CompilationAction 1445592556509 TestPlanetExplorer.java
+EditAction 1445592556613 TestPlanetExplorer.java 2456 8 29 10
