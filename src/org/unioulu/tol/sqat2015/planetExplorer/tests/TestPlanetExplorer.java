@@ -38,17 +38,26 @@ public class TestPlanetExplorer {
 	public void testExplorerTurnLeftAfterLanding(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
 		
-		String landingCommand = planetExplorer.executeCommand("l"); 
+		String leftCommand = planetExplorer.executeCommand("l"); 
 		
-		assertEquals("(0,0,W)", landingCommand);
+		assertEquals("(0,0,W)", leftCommand);
 	}
 	
 	@Test
 	public void testExplorerTurnRightAfterLanding(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
 		
-		String landingCommand = planetExplorer.executeCommand("r"); 
+		String rightCommand = planetExplorer.executeCommand("r"); 
 		
-		assertEquals("(0,0,E)", landingCommand);
+		assertEquals("(0,0,E)", rightCommand);
+	}
+	
+	@Test
+	public void testExplorerMovingForwardFromLanding(){
+		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
+		
+		String forwardCommand = planetExplorer.executeCommand("f"); 
+		
+		assertEquals("(0,1,N)", forwardCommand);
 	}
 }
