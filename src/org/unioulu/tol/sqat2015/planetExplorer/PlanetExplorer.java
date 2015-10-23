@@ -133,7 +133,7 @@ public class PlanetExplorer {
 			if(explorerPositionY < planetY && explorerPositionY > 0)
 				explorerPositionY--;
 			if(explorerPositionY == 0)
-				explorerPositionY = planetY -1;
+				explorerPositionY = planetY - 1;
 		} else if (explorerDirecton.equals("E")||explorerDirecton.equals("W")) {
 			if(explorerPositionX < planetX && explorerPositionX > 0)
 				explorerPositionX--;
