@@ -65,7 +65,7 @@ public class TestPlanetExplorer {
 	public void testExplorerMovingBackFromPosition01N(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
 		
-		String backwardCommand = planetExplorer.executeCommand("f"); 
+		String backwardCommand = planetExplorer.executeCommand("b"); 
 		
 		assertEquals("(0,0,N)", backwardCommand);
 	}
