@@ -33,4 +33,13 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0,0,N)", landingCommand);
 	}
+	
+	@Test
+	public void testExplorerTurnLeftAfterLanding(){
+		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
+		
+		String landingCommand = planetExplorer.executeCommand("l"); 
+		
+		assertEquals("(0,0,W)", landingCommand);
+	}
 }
