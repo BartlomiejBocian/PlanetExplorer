@@ -8,11 +8,20 @@ import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 public class TestPlanetExplorer {
 
 	@Test
-	public void testPlanetSizeWhen100() {
+	public void testPlanetSizeWhen100x100() {
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
 		
 		int planetSize = planetExplorer.getPlanetWidth() * planetExplorer.getPlanetHeight();
 		
 		assertEquals(10000, planetSize);
+	}
+	
+	@Test
+	public void testPlanetSizeWhen10x20(){
+		PlanetExplorer planetExplorer = new PlanetExplorer(10, 20, "");
+		
+		int planetSize = planetExplorer.getPlanetWidth() * planetExplorer.getPlanetHeight();
+		
+		assertEquals(200, planetSize);
 	}
 }

@@ -15,3 +15,19 @@ RefactoringAction 1445589661469 PlanetExplorer.java ADD int getPlanetWidth() MET
 RefactoringAction 1445589666855 PlanetExplorer.java ADD int getPlanetHeight() METHOD
 EditAction 1445589681543 PlanetExplorer.java 1525 4 3 0
 EditAction 1445589681986 TestPlanetExplorer.java 478 1 3 1
+UnitTestCaseAction 1445589683246 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445589683252 TestPlanetExplorer OK
+RefactoringAction 1445589700174 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445589702187 TestPlanetExplorer.java RENAME test=>void testPlanet FIELD
+RefactoringAction 1445589704200 TestPlanetExplorer.java RENAME testPlanet=>void testPlanetSize FIELD
+RefactoringAction 1445589706714 TestPlanetExplorer.java RENAME testPlanetSize=>void testPlanetSizeWhen FIELD
+RefactoringAction 1445589708227 TestPlanetExplorer.java RENAME testPlanetSizeWhen=>void testPlanetSizeWhen10 FIELD
+RefactoringAction 1445589709741 TestPlanetExplorer.java RENAME testPlanetSizeWhen10=>void testPlanetSizeWhen10() METHOD
+RefactoringAction 1445589712753 TestPlanetExplorer.java RENAME testPlanetSizeWhen10()=>void testPlanetSizeWhen10x10() METHOD
+RefactoringAction 1445589715269 TestPlanetExplorer.java RENAME testPlanetSizeWhen10x10()=>void testPlanetSizeWhen10x20() METHOD
+RefactoringAction 1445589718783 TestPlanetExplorer.java RENAME testPlanetSizeWhen100()=>void testPlanetSizeWhen100X() METHOD
+RefactoringAction 1445589721297 TestPlanetExplorer.java RENAME testPlanetSizeWhen100X()=>void testPlanetSizeWhen100x100() METHOD
+RefactoringAction 1445589806319 PlanetExplorer.java ADD int planetX FIELD
+RefactoringAction 1445589813349 PlanetExplorer.java ADD int planet FIELD
+RefactoringAction 1445589814865 PlanetExplorer.java RENAME planet=>int planetY FIELD
+EditAction 1445589871334 TestPlanetExplorer.java 735 2 6 2
