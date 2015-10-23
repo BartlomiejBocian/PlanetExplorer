@@ -46,3 +46,9 @@ RefactoringAction 1445590237853 PlanetExplorer.java REMOVE gridLenght() METHOD
 EditAction 1445590251640 PlanetExplorer.java 1613 4 6 0
 CompilationAction 1445590251771 TestPlanetExplorer.java
 EditAction 1445590251826 TestPlanetExplorer.java 735 2 6 2
+UnitTestCaseAction 1445590252734 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445590252734 TestPlanetExplorer OK
+RefactoringAction 1445590277469 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445590280483 TestPlanetExplorer.java RENAME test=>void testExplorer FIELD
+RefactoringAction 1445590282997 TestPlanetExplorer.java RENAME testExplorer=>void testExplorerLanding FIELD
+EditAction 1445590480736 PlanetExplorer.java 1697 4 7 0

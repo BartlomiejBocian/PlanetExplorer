@@ -33,6 +33,12 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		switch (command) {
+		case "":
+			return "(0,0,N)";
+		default:
+			break;
+		}
 		
 		return null;
 	}
