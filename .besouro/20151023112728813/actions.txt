@@ -31,3 +31,8 @@ RefactoringAction 1445589806319 PlanetExplorer.java ADD int planetX FIELD
 RefactoringAction 1445589813349 PlanetExplorer.java ADD int planet FIELD
 RefactoringAction 1445589814865 PlanetExplorer.java RENAME planet=>int planetY FIELD
 EditAction 1445589871334 TestPlanetExplorer.java 735 2 6 2
+UnitTestCaseAction 1445589872376 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445589872377 TestPlanetExplorer OK
+FileOpenedAction 1445589923463 Sudoku.java 2879 8 13 0
+RefactoringAction 1445589938523 PlanetExplorer.java ADD int FIELD
+EditAction 1445589993218 PlanetExplorer.java 1612 4 6 0
