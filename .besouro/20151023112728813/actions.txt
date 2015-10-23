@@ -71,3 +71,4 @@ RefactoringAction 1445590695449 TestPlanetExplorer.java RENAME testExplorer=>voi
 RefactoringAction 1445590697966 TestPlanetExplorer.java RENAME testExplorerTurn=>void testExplorerTurnRight FIELD
 RefactoringAction 1445590702984 TestPlanetExplorer.java RENAME testExplorerTurnRight=>void testExplorerTurnRightAfterLanding() METHOD
 EditAction 1445590767188 PlanetExplorer.java 1767 4 7 0
+EditAction 1445590767413 TestPlanetExplorer.java 1472 5 15 5
