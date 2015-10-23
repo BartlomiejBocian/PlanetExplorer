@@ -60,7 +60,7 @@ public class PlanetExplorer {
 		System.out.println(separated.length);
 		System.out.println(separated[1]);
 		System.out.println(separated[3]);
-		System.out.println(separated[4]);
+		System.out.println(separated[5]);
 		this.explorerPositionX = Integer.parseInt(separated[1]);
 		this.explorerPositionY = Integer.parseInt(separated[3]);
 		this.explorerDirecton = separated[5];
