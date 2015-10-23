@@ -233,3 +233,5 @@ RefactoringAction 1445594113349 PlanetExplorer.java ADD String explorerTu FIELD
 RefactoringAction 1445594117369 PlanetExplorer.java RENAME explorerTu=>String explorerTurnRight() METHOD
 RefactoringAction 1445594163096 PlanetExplorer.java REMOVE explorerTurning(String) METHOD
 EditAction 1445594185772 PlanetExplorer.java 3532 11 21 0
+CompilationAction 1445594185921 TestPlanetExplorer.java
+EditAction 1445594185994 TestPlanetExplorer.java 2564 8 31 10
