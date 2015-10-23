@@ -57,6 +57,7 @@ public class PlanetExplorer {
 	
 	public void parsingExplorerPosition(String position){
 		String[] separated = position.split("(" + "," + ")");
+		System.out.println(separated.length);
 		this.explorerPositionX = Integer.parseInt(separated[1]);
 		this.explorerPositionY = Integer.parseInt(separated[4]);
 		this.explorerDirecton = separated[6];
