@@ -140,3 +140,6 @@ RefactoringAction 1445591840949 TestPlanetExplorer.java ADD void assertEquals() 
 RefactoringAction 1445591842971 TestPlanetExplorer.java REMOVE assertEquals() METHOD
 FileOpenedAction 1445591912429 Sudoku.java 2879 8 13 0
 EditAction 1445591999840 TestPlanetExplorer.java 2270 8 25 8
+UnitTestCaseAction 1445592001526 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445592001526 TestPlanetExplorer FAIL
+EditAction 1445592086348 TestPlanetExplorer.java 2275 8 25 8

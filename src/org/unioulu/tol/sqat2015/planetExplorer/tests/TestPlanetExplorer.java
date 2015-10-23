@@ -74,7 +74,7 @@ public class TestPlanetExplorer {
 	public void testExplorerPositionParsing00N(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
 		
-		String[] parsing = planetExplorer.parsingExplorerPosition("()"); 
+		String[] parsing = planetExplorer.parsingExplorerPosition("(0,0,N)"); 
 		String[] output = {"0","0","N"};
 
 		assertArrayEquals(output, parsing);
