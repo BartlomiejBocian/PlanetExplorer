@@ -36,3 +36,6 @@ UnitTestSessionAction 1445589872377 TestPlanetExplorer OK
 FileOpenedAction 1445589923463 Sudoku.java 2879 8 13 0
 RefactoringAction 1445589938523 PlanetExplorer.java ADD int FIELD
 EditAction 1445589993218 PlanetExplorer.java 1612 4 6 0
+RefactoringAction 1445590149550 PlanetExplorer.java ADD int gridLenght FIELD
+RefactoringAction 1445590150567 PlanetExplorer.java RENAME gridLenght=>int gridLenght() METHOD
+EditAction 1445590199540 PlanetExplorer.java 1675 5 7 0

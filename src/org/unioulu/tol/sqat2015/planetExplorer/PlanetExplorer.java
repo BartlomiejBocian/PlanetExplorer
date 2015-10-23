@@ -37,7 +37,12 @@ public class PlanetExplorer {
 		return null;
 	}
 
+	public int gridLenght(){
+		return planet.length;
+	}
+	
 	public int getPlanetWidth() {
+		
 		return planetX;
 	}
 
