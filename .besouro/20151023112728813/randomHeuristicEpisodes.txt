@@ -9,3 +9,6 @@
 1445593153041 test-first 1 1882 true
 1445593976055 refactoring 3 771 false
 1445594202209 production 3 176 true
+1445594649750 refactoring 3 401 true
+1445594900327 refactoring 2B 78 false
+1445594940967 regression 1 0 false

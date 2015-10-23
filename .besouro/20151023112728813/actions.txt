@@ -252,3 +252,36 @@ RefactoringAction 1445594293772 PlanetExplorer.java RENAME explorerBack()=>Strin
 RefactoringAction 1445594300293 PlanetExplorer.java RENAME explorerBackw()=>String explorerBackward() METHOD
 EditAction 1445594648544 PlanetExplorer.java 4342 13 27 0
 EditAction 1445594648709 TestPlanetExplorer.java 2664 8 33 10
+UnitTestCaseAction 1445594649749 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445594649750 TestPlanetExplorer OK
+RefactoringAction 1445594821940 PlanetExplorer.java RENAME explorerForward()=>String explorerMoving() METHOD
+RefactoringAction 1445594826977 PlanetExplorer.java RENAME explorerMoving()=>String explorerMoving(String) METHOD
+RefactoringAction 1445594848022 PlanetExplorer.java RENAME explorerMoving(String)=>String explorerForward() METHOD
+UnitTestCaseAction 1445594900327 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445594900327 TestPlanetExplorer OK
+UnitTestCaseAction 1445594940967 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445594940967 TestPlanetExplorer OK
+RefactoringAction 1445594967575 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445594973093 TestPlanetExplorer.java RENAME test=>void testExplorerMoving FIELD
+RefactoringAction 1445594980112 TestPlanetExplorer.java RENAME testExplorerMoving=>void testExplorerMovingFromPoosition FIELD
+RefactoringAction 1445594994130 TestPlanetExplorer.java RENAME testExplorerMovingFromPoosition=>void testExplorerMovingFromPoo FIELD
+RefactoringAction 1445594995648 TestPlanetExplorer.java RENAME testExplorerMovingFromPoo=>void testExplorerMovingFromPosition FIELD
+RefactoringAction 1445594998166 TestPlanetExplorer.java RENAME testExplorerMovingFromPosition=>void testExplorerMovingFromPosition() METHOD
+RefactoringAction 1445595012199 TestPlanetExplorer.java RENAME testExplorerMovingFromPosition()=>void testExplorerMovingForwardFromPosition() METHOD
+RefactoringAction 1445595017218 TestPlanetExplorer.java RENAME testExplorerMovingForwardFromPosition()=>void testExplorerMovingForwardFromPosition7() METHOD
+RefactoringAction 1445595020743 TestPlanetExplorer.java RENAME testExplorerMovingForwardFromPosition7()=>void testExplorerMovingForwardFromPosition76N() METHOD
+RefactoringAction 1445595067404 TestPlanetExplorer.java ADD PlanetExplorer planetExplorer FIELD
+RefactoringAction 1445595067405 TestPlanetExplorer.java ADD String backwardCommand FIELD
+RefactoringAction 1445595067405 TestPlanetExplorer.java ADD void assertEquals() METHOD
+RefactoringAction 1445595068924 TestPlanetExplorer.java REMOVE backwardCommand FIELD
+RefactoringAction 1445595068924 TestPlanetExplorer.java REMOVE planetExplorer FIELD
+RefactoringAction 1445595068925 TestPlanetExplorer.java REMOVE assertEquals() METHOD
+RefactoringAction 1445595085519 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445595088538 TestPlanetExplorer.java RENAME test=>void testExplorer FIELD
+RefactoringAction 1445595090557 TestPlanetExplorer.java RENAME testExplorer=>void testExplorerMoving FIELD
+RefactoringAction 1445595094575 TestPlanetExplorer.java RENAME testExplorerMoving=>void testExplorerMovingBackward FIELD
+RefactoringAction 1445595100096 TestPlanetExplorer.java RENAME testExplorerMovingBackward=>void testExplorerMovingBackwardFromPosition FIELD
+RefactoringAction 1445595105115 TestPlanetExplorer.java RENAME testExplorerMovingBackwardFromPosition=>void testExplorerMovingBackwardFromPosition5 FIELD
+RefactoringAction 1445595107134 TestPlanetExplorer.java RENAME testExplorerMovingBackwardFromPosition5=>void testExplorerMovingBackwardFromPosition58E FIELD
+RefactoringAction 1445595108653 TestPlanetExplorer.java RENAME testExplorerMovingBackwardFromPosition58E=>void testExplorerMovingBackwardFromPosition58E() METHOD
+EditAction 1445595141345 TestPlanetExplorer.java 3282 10 41 12

@@ -92,8 +92,27 @@ public class TestPlanetExplorer {
 		assertEquals("N", explorerD);
 	}
 	
+	@Test
+	public void testExplorerMovingForwardFromPosition76N(){
+		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
+		
+		planetExplorer.positioningExplorer("(7,6,N)");
+		
+		String forwardCommand = planetExplorer.executeCommand("f"); 
+		
+		assertEquals("(7,7,N)", forwardCommand);
+	}
 	
-	
+	@Test
+	public void testExplorerMovingBackwardFromPosition58E(){
+		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
+		
+		planetExplorer.positioningExplorer("(5,8,E)");
+		
+		String backwardCommand = planetExplorer.executeCommand("b"); 
+		
+		assertEquals("(4,8,E)", backwardCommand);
+	}
 	
 	
 }
