@@ -251,3 +251,4 @@ RefactoringAction 1445594292752 PlanetExplorer.java RENAME explorerBac()=>String
 RefactoringAction 1445594293772 PlanetExplorer.java RENAME explorerBack()=>String explorerBackw() METHOD
 RefactoringAction 1445594300293 PlanetExplorer.java RENAME explorerBackw()=>String explorerBackward() METHOD
 EditAction 1445594648544 PlanetExplorer.java 4342 13 27 0
+EditAction 1445594648709 TestPlanetExplorer.java 2664 8 33 10

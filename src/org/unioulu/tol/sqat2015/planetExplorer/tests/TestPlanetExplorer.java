@@ -60,6 +60,7 @@ public class TestPlanetExplorer {
 	public void testExplorerMovingForwardFromLanding(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
 		
+		planetExplorer.positioningExplorer("(0,0,N)");
 		String forwardCommand = planetExplorer.executeCommand("f"); 
 		
 		assertEquals("(0,1,N)", forwardCommand);
@@ -68,6 +69,8 @@ public class TestPlanetExplorer {
 	@Test
 	public void testExplorerMovingBackFromPosition01N(){
 		PlanetExplorer planetExplorer = new PlanetExplorer(100, 100, "");
+		
+		planetExplorer.positioningExplorer("(0,1,N)");
 		
 		String backwardCommand = planetExplorer.executeCommand("b"); 
 		
