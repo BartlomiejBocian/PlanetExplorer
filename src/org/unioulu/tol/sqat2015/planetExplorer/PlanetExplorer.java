@@ -65,8 +65,8 @@ public class PlanetExplorer {
 //		System.out.println(separated[3]);
 //		System.out.println(separated[5]);
 		this.explorerPositionX = Integer.parseInt(separated[1]);
-		this.explorerPositionY = Integer.parseInt(separated[3]);
-		this.explorerDirecton = separated[5];
+		this.explorerPositionY = Integer.parseInt(separated[2]);
+		this.explorerDirecton = separated[3];
 	}
 	
 	public int getPlanetWidth() {
