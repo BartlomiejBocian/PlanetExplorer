@@ -41,9 +41,9 @@ public class PlanetExplorer {
 		case "":
 			return "(0,0,N)";
 		case "l":
-			return "(0,0,W)";
+			return explorerTurning("l");
 		case "r":
-			return "(0,0,E)";
+			return explorerTurning("r");
 		case "f":
 			return "(0,1,N)";
 		case "b":
@@ -57,16 +57,49 @@ public class PlanetExplorer {
 	
 	public void parsingExplorerPosition(String position){
 		String[] separated = position.split("[\\(,\\)]");
-		System.out.println(separated.length);
-		for (String string : separated) {
-			System.out.println(string);
-		}
-//		System.out.println(separated[1]);
-//		System.out.println(separated[3]);
-//		System.out.println(separated[5]);
 		this.explorerPositionX = Integer.parseInt(separated[1]);
 		this.explorerPositionY = Integer.parseInt(separated[2]);
 		this.explorerDirecton = separated[3];
+	}
+	
+	private String explorerTurning(String direction){
+		if(direction.equals("r")){
+			switch (explorerDirecton) {
+			case "N":
+				this.explorerDirecton = "E";
+				break;
+			case "S":
+				this.explorerDirecton = "W";
+				break;
+			case "W":
+				this.explorerDirecton = "N";
+				break;
+			case "E":
+				this.explorerDirecton = "S";
+				break;
+			default:
+				break;
+			}
+		} else if (direction.equals("l")) {
+			switch (explorerDirecton) {
+			case "N":
+				this.explorerDirecton = "W";
+				break;
+			case "S":
+				this.explorerDirecton = "E";
+				break;
+			case "W":
+				this.explorerDirecton = "S";
+				break;
+			case "E":
+				this.explorerDirecton = "N";
+				break;
+			default:
+				break;
+			}
+		}
+		String explorerNewDirection = new String("("+ explorerPositionX +","+ explorerPositionY +","+ explorerDirecton + ")");
+		return explorerNewDirection;
 	}
 	
 	public int getPlanetWidth() {

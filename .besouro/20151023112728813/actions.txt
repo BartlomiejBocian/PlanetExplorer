@@ -200,3 +200,18 @@ EditAction 1445593098214 PlanetExplorer.java 2676 8 16 0
 UnitTestCaseAction 1445593099328 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445593099328 TestPlanetExplorer FAIL
 EditAction 1445593151923 PlanetExplorer.java 2676 8 16 0
+UnitTestCaseAction 1445593153041 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445593153041 TestPlanetExplorer OK
+RefactoringAction 1445593205043 PlanetExplorer.java ADD void explorer FIELD
+RefactoringAction 1445593208558 PlanetExplorer.java RENAME explorer=>void explorerTur FIELD
+RefactoringAction 1445593210074 PlanetExplorer.java RENAME explorerTur=>void explorerTurning FIELD
+RefactoringAction 1445593218591 PlanetExplorer.java REMOVE explorerTurning FIELD
+RefactoringAction 1445593220607 PlanetExplorer.java ADD String explorerTurning FIELD
+RefactoringAction 1445593223624 PlanetExplorer.java RENAME explorerTurning=>String explorerTurning() METHOD
+RefactoringAction 1445593233156 PlanetExplorer.java RENAME explorerTurning()=>String explorerTurning(String) METHOD
+RefactoringAction 1445593245864 PlanetExplorer.java RENAME explorerTurning(String)=>String explorerTurning() METHOD
+RefactoringAction 1445593250381 PlanetExplorer.java RENAME explorerTurning()=>String explorerTurning(String) METHOD
+RefactoringAction 1445593304526 PlanetExplorer.java RENAME explorerTurning(String)=>String explorerTurning(String, String) METHOD
+RefactoringAction 1445593408273 PlanetExplorer.java RENAME explorerTurning(String, String)=>String explorerTurning() METHOD
+RefactoringAction 1445593409790 PlanetExplorer.java RENAME explorerTurning()=>String explorerTurning(String) METHOD
+EditAction 1445593921185 PlanetExplorer.java 3359 9 17 0
